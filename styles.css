@@ -1,0 +1,34 @@
+html {
+    background-color: rgb(85, 158, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name { 
+    color: rgba(0, 0, 0, 0.781);
+}
+.image {
+    height: 600px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#unordered {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    list-style-position:inside;
+    list-style-type: disc;
+}
+
+#ordered {
+    color: rgb(63, 31, 31);
+    font-size: 50px;
+    list-style-position: inside;
+}
+
+.ancestors > .text {
+    font-size: 50px;
+    text-align: center;
+}
